@@ -1,0 +1,103 @@
+.header {
+    background-color: lightpink;
+    height: 600px;
+    font-size: 40px;
+}
+
+.t-header {
+    background-color: rgb(89, 89, 214);
+    height: 100px;
+    font-size: 40px;
+}
+
+.trend-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding: 0 80px 0 80px;
+    column-gap: 20px;
+    height: 250px;
+    justify-content:center;
+    
+}
+
+.t-thumbnail {
+    background-color: rgb(60, 218, 60);
+    height: 150px;
+    font-size: 25px
+}
+
+.nw-gutter-top {
+    background-color: rgb(238, 74, 74);
+    height: 90px;
+    font-size: 40px;
+}
+
+.nw-thumbnail {
+    background-color: rgb(212, 212, 72);
+    height: 650px;
+
+}
+
+.nw-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 350px;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 100px 60px 100px 60px;
+    font-size: 40px;
+}
+
+.nw-container div {
+    background-color: rgba(0, 0, 0, 0.397);
+    
+}
+
+.nw-text {
+    font-size: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.nw-gutter-bott {
+    background-color: rgb(192, 60, 60);
+    height: 100px;
+    font-size: 40px;
+}
+
+.at-choice-container {
+    background-color: rgb(77, 63, 53);
+    height: 300px;
+    font-size: 40px;
+}
+
+.para-gutter-top {
+    background-color: skyblue;
+    height: 250px;
+    font-size: 40px;
+}
+
+.para-container {
+    background-color: #6678da;
+    height:350px ;
+    font-size: 40px;
+}
+
+.para-gutter-bott {
+    background-color: pink;
+    height: 150px;
+    font-size: 40px;
+}
+
+.sing-contraine {
+    background-color: skyblue;
+    height: 100px;
+    font-size: 40px;   
+}
+
+.footer-container {
+    background-color: pink;
+    height: 600px;
+    font-size: 40px;
+}
