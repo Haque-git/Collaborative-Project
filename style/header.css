@@ -1,0 +1,125 @@
+.header-main {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 13rem;
+  font-family: 'Koulen', cursive;
+  line-height: 1ch;
+  word-spacing: -4rem;
+}
+
+.header-main p {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 70);
+  position: relative;
+  top: 9px;
+  word-spacing: normal;
+}
+
+.header-main span {
+  font-family: 'Kristi', cursive;
+  color: rgb(255, 255, 70);
+  font-size: 10rem;
+  position: relative;
+  bottom: 2rem;
+}
+.shop-now-container {
+  display: grid;
+  grid-template-columns: 100px 300px 100px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: max(33%, 6rem);
+}
+.button-back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: 6px 7px;
+  transform: translate(-50%, -50%);
+  height: 55px;
+  width: 223px;
+  border: 3px solid rgb(255, 255, 70);
+  border-top: 0;
+  border-left: 0;
+  background-color: transparent;
+  z-index: 10;
+}
+.shop-now {
+  font-size: 20px;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  height: 4ch;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  font-weight: 800;
+  background-color: rgb(255, 255, 70);
+  z-index: 100;
+}
+
+.coll2 .line {
+  background-color: black;
+  height: 3px;
+  width: 13px;
+  top: 50%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+}
+.coll2 .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  position: absolute;
+  top: 40%;
+  left: 170px;
+  padding: 4px;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 5rem;
+  background-color: white;
+}
+.right {
+  position: absolute;
+  left: 56px;
+  top: -4px;
+  transform: rotate(-45deg);
+  
+}
+
+.left {
+  position: absolute;
+  left: 437px;
+  top: -4px;
+  transform: rotate(135deg);
+}
+.line-left {
+  position: absolute;
+  top: 50%;
+  left: 477px;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 5rem;
+  background-color: white;
+}

@@ -1,0 +1,59 @@
+.nav-bar {
+  padding-block: .25rem;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+}
+.converse {
+  height: .75rem;
+  padding-inline: 1rem;
+}
+
+.nike {
+  height: .75rem;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 10px;
+  padding-inline: .5rem;
+}
+
+.nav-shop {
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.nav-shop input {
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 4rem;
+}
+
+.favorite {
+  position: relative;
+  bottom: -1px;
+  padding-inline: 1rem;
+}
+
+.shop{
+  position: relative;
+  bottom: 1px;
+}

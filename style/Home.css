@@ -1,8 +1,14 @@
 .header {
-    background-color: lightpink;
-    height: 600px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
     font-size: 40px;
+    background-image: url(photos/hero-group-nike-main.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
+
 
 .t-header {
     background-color: rgb(89, 89, 214);
