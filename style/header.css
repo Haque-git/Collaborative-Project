@@ -123,3 +123,24 @@
   width: 5rem;
   background-color: white;
 }
+
+.decoration {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 70);
+  height: 10px;
+}
+.dc-left {
+  padding-left: 5%;
+}
+.dc-right {
+  padding-right: 5%;
+}
