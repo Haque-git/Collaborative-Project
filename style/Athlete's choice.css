@@ -1,0 +1,32 @@
+.at-choice-container {
+  background-color: gray;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  
+}
+
+.at {
+  width: 430px;
+  padding-right: 6%;
+}
+.at h1 {
+  font-size: 60px;
+  line-height: 60px;
+  font-family: 'Koulen', cursive;
+}
+.at p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.nike {
+  z-index: 100;
+  font-family: 'Koulen', cursive;
+  padding-left: 6%;
+  font-size: 260px;
+  line-height: 180px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}

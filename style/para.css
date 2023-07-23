@@ -1,0 +1,67 @@
+.para-gutter-top {
+  background-color: rgb(235, 233, 233);
+  height: 350px;
+  font-size: 40px;
+  position: relative;
+}
+
+.para-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(217, 217, 217);
+  font-size: 40px;
+}
+
+.para-container h1 {
+  padding-top: 50px;
+  padding-inline: 80px;
+  font-size: 40px;
+  font-family: 'Koulen', cursive;
+  line-height: 50px;
+}
+
+
+.para-container p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-inline: 80px;
+  font-size: 20px;
+}
+
+
+
+.para-show-more {
+  color: white;
+  font-size: 25px;
+  padding-top: 1px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 57px;
+  border: 1px solid black;
+  font-weight: 800;
+  background-color: black;
+  z-index: 100;
+  font-family: 'Koulen', cursive;
+}
+.para-button-back {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  translate: 4px 5px;
+  transform: translate(-50%, -50%);
+  height: 56px;
+  width: 249px;
+  border: 1px solid black;
+  background-color: transparent;
+  z-index: 10;
+}
+.para-gutter-bott {
+  background-color: rgb(235, 233, 233);
+  height: 280px;
+  font-size: 40px;
+}
